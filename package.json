@@ -1,0 +1,25 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "ding yao go to study webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --config hot/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyio/webpack-demo.git"
+  },
+  "author": "dinglei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyio/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/dyio/webpack-demo#readme",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
